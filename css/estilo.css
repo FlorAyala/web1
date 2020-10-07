@@ -1,0 +1,448 @@
+header {
+    background-image: url(../imagenes/fondo-madera.jpg);
+    margin: 0px;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+#logo-shelby {
+    height: 70px;
+    width: 400px;
+    padding: 30px;
+}
+
+/*-----menu de navegacion/botonera------*/
+
+.navegador {
+    display: flex;
+    margin: 0px;
+    width: 100%;
+}
+
+.botonera {
+    width: 100%;
+    justify-content: space-between;
+    background-color: black;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.li-item, a {
+    display: inline-block;
+    color: white;
+    text-transform: capitalize;
+    font-family: Helvetica, sans-serif;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.li-item:hover {
+    background-color: rgba(255, 255, 255, 0.692);
+}
+
+#redes {
+    width: 15px;
+    padding-left: 30px;
+}
+
+#redes img {
+    width: 20px;
+    padding: 0px 20px 0px 20px;
+}
+
+/*-----Scroll de imagenes|Home---*/
+
+.slider {
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0px;
+    width: 400%;
+    animation: cambio 20s infinite;
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider img {
+    width: 100%;
+}
+
+@keyframes cambio {
+    0% {
+        margin-left: 0%;
+    }
+    20% {
+        margin-left: 0;
+    }
+    25% {
+        margin-left: -100%;
+    }
+    45% {
+        margin-left: -100%;
+    }
+    50% {
+        margin-left: -200%;
+    }
+    70% {
+        margin-left: -200%;
+    }
+    75% {
+        margin-left: -300%;
+    }
+    100% {
+        margin-left: -300%;
+    }
+}
+
+.contenedor-historia {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10px 20px 10px;
+    background-color: wheat;
+    margin: 10px;
+}
+
+.contenedor-quienes-somos {
+    margin: 20px 0px 20px 0px;
+}
+
+.contenedor-quienes-somos h1 {
+    font-family: 'Quicksand';
+    font-size: 50px;
+}
+
+.historia1, .historia2 {
+    width: 45%;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 1.8em;
+    font-family: 'Quicksand';
+    font-size: 20px;
+}
+
+.dibujo {
+    width: 100%;
+    margin: 0;
+    padding-top: 100px;
+}
+
+.dibujo img {
+    width: 100%;
+}
+
+.ima-historia {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px 30px 0px
+}
+
+.ima-historia img {
+    width: 40%;
+    padding: 20px;
+}
+
+hr {
+    width: 60%;
+}
+
+/*-----footer------*/
+
+.footer {
+    background-color: black;
+    color: white;
+    font-family: 'Quicksand';
+    text-transform: uppercase;
+    padding: 60px;
+    width: 90%;
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.5em;
+}
+
+.hr-footer {
+    width: 100%;
+}
+
+.logo-footer {
+    align-self: start;
+}
+
+#footer-shelby {
+    height: 40px;
+    width: 200px;
+}
+
+.contenedor-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.subscripcion {
+    width: 40%;
+}
+
+.direccion {
+    width: 40%;
+    text-align: end;
+}
+
+.redes-sociales {
+    width: 20%;
+}
+
+.redes-sociales ul {
+    text-align: justify;
+}
+
+.ul-footer {
+    list-style: none;
+    padding-right: 15%;
+}
+
+#logos-redes {
+    width: 20px;
+}
+
+/*-----css Contacto------*/
+
+.contenedor-contacto {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Quicksand';
+    text-align: left;
+    padding-top: 20px;
+}
+
+.ubicacion, .contacto {
+    display: flex;
+    width: 45%;
+}
+
+.lista-contacto {
+    text-align: start;
+    list-style: none;
+    font-size: 20px;
+    line-height: 1.8em;
+}
+
+.map {
+    width: 600px;
+    height: 400px;
+    margin: 15px;
+}
+
+.lista-contacto img {
+    width: 13px;
+}
+
+/*-----css compra------*/
+
+.contenedor-compra {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.pedido{
+    width: 50%;
+    margin: 30px;
+}
+
+.form-cervezas {
+    width: 45%;
+    padding: 15px;
+    margin: 30px;
+}
+.pedido img {
+    width: 150px;
+}
+
+.contenedor-captcha h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    margin: 20px;
+}
+
+.texto p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contenedor-compra h2 {
+    font-family: 'Patrick Hand', cursive;
+}
+
+/*------css contenedor cervezas------*/
+
+.lista-cerveza {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 40px;
+    color: black;
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
+    list-style: none;
+    text-decoration: none;
+    margin: 40px;
+}
+
+.li-cerveza:hover {
+    background-color: rgb(175, 172, 172);
+    color: black;
+}
+
+.li-cerveza a {
+    display: inline-block;
+    color: black;
+    text-transform: capitalize;
+    font-family: Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.contenedor-cervezas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.fotos-cervezas {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    padding: 10px;
+    align-items: baseline;
+}
+
+.img-cervezas {
+    width: 20%;
+    display: flex;
+    float: left;
+    padding: 20px;
+    margin: 5px;
+    align-items: center;
+}
+
+.detalle-cerveza {
+    display: flex;
+    width: 60%;
+    float: right;
+    padding: 60px 20px 30px 20px;
+    margin: 40px;
+}
+
+.detalle-cerveza p {
+    font-family: 'Quicksand';
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+.detalle-cerveza span {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.fotos-cervezas img {
+    width: 220px;
+}
+
+.detalle-cerveza img, #descripcion-cervezas img {
+    width: 40px;
+}
+
+/*------tabla-----*/
+
+#descripcion-cervezas {
+    width: 100%;
+    display: flex;
+    justify-content: center
+}
+
+th {
+    background-color: black;
+    color: white;
+    font-size: 26px;
+    border-bottom: solid 5px #646464;
+}
+
+tbody {
+    color: rgb(110, 28, 28);
+    font-size: 18px;
+}
+
+table, td, tr {
+    border-collapse: collapse;
+}
+
+table {
+    width: 50%;
+    height: 350px;
+    text-align: left;
+    margin: 30px;
+    font-family: 'Quicksand';
+}
+
+tr:hover td {
+    background-color: gray;
+    color: black;
+}
+
+/*-----css Reserva------*/
+
+.contenedor-form p {
+    font-family: 'Quicksand';
+}
+
+.contenedor-form h1 {
+    font-family: 'Patrick Hand', cursive;
+}
+
+.contenedor-reservas {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 0px;
+    align-content: center;
+}
+
+.items-form {
+    width: 70%;
+    padding: 12px 10px;
+    display: inline-block;
+    margin: 8px 0px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(212, 211, 211, 0.397);
+}
+
+.img-reserva {
+    width: 50%;
+    padding-top: 100px;
+    margin: 0px;
+}
+
+.img-reserva img {
+    width: 100%;
+    padding-top: 30px;
+}
+
+.reserva {
+    align-items: center;
+}
